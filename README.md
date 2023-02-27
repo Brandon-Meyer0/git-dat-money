@@ -1,4 +1,4 @@
-# Capstone Repository
+# Capstone Repository (GROUP 1A)
 
 This is the project repository for the capstone of Cohort A Group 1 consisting of:
 - Jahnavi Brahmbhatt
