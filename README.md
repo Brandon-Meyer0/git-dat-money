@@ -10,8 +10,10 @@ This is the project repository for the capstone of Cohort A Group 1 consisting o
 
 ### Repository Material
 
-1) [IPython Notebook](https://github.com/Brandon-Meyer0/git-dat-money/blob/main/Capstone%20Group%201A.ipynb)
-2) Presentation Slides
+1) [IPython Notebook](https://github.com/Brandon-Meyer0/git-dat-money/blob/main/Capstone_1A_Final.ipynb)
+2) [Data folder](https://github.com/Brandon-Meyer0/git-dat-money/tree/main/Data) (with data used in this study)
+3) [.gitignore](https://github.com/Brandon-Meyer0/git-dat-money/blob/main/.gitignore)
+3) [Presentation Slides](https://github.com/Brandon-Meyer0/git-dat-money/blob/main/Presentation/Capstone%20Project%20-%20Movie%20Analysis.pdf)
 
 *Links to each of the team member's repositories as well as main notebook.
 
@@ -40,7 +42,7 @@ The stakeholders for our project are our clients at Computing Vision to whom we 
 
 ## Data Understanding and Analysis
 
-Our data comes from the data frames generated from the *.csv* and *.tsv* files provided to us by our instructors, sourced from the aformentioned movie rating websites (Rotten Tomatoes, The Numbers, The Movie DB, and Box Office Mojo). We also had access to a SQL database from IMDB that we were planning on using, but didn't end up using due to time constraints.
+Our data comes from the data frames generated from the *.csv* and *.tsv* files provided to us by our instructors, sourced from the aformentioned movie rating websites (Rotten Tomatoes, The Numbers, The Movie DB, and Box Office Mojo). We also had access to a SQL database from IMDB that we were planning on using, but didn't end up using due to time constraints. **You can find the data we used in this repo inside the data folder. The SQL database wasn't uploaded to this repository due to size constraints and it not being used for the study but can be found if needed in the repository for this course. Files used were uploaded unzipped.**
 
 The data was formatted in a way were we could easily import it with the Pandas library and begin the clean-up process. In one case we had to specify the indices row. We opted to drop various columns where, we had an idea on how to use them, but decided the clean-up would be too time consuming for the tight schedule we had -such as the score field for the Rotten Tomatoes data frame, which we eneded dropping once we saw the variability it introduced by having an open rating system that went from having values out of 10, or out of 5 to having letter grades or even random letters. 
 
@@ -77,9 +79,9 @@ We used a Mann-Whitney U test to analyze the aforementioned director data to arr
 
 Some greater insights we could gain from the linear regression are that:
 
-> **As a director gains one movie in experience, the fresh percentage is expected to increae by 5%**
+> As a director gains one movie in experience, the **fresh percentage is expected to increase by 5%**
 > 
-> **For every fresh percentage point gained, we can expect to see box office revenue increased by $16.7K USD**
+> For every fresh percentage point gained, we can expect to see **box office revenue increased by $16.7K USD**
 
 This would further indicate that director experience is a desirable characteristic to have when producing a movie, since every percentual increase in the movie's rating will be reflected in the box office's revenue, and see generated earnings for the company.
 
@@ -87,8 +89,8 @@ This would further indicate that director experience is a desirable characterist
 
 This study was conducted within a week and, while most of our conclusions derive from our own analytical interpretations of the graphic representations produced, there was a statistic inference procedure conducted on the data related to directors in order to formally reject or accept our hypothesis as well as allow us to draw various conclusions that would derive into our recommendations. The three main points we would recommend Computing Vision are the following:
 
-1) Hire experienced directors; having more than one movie under their belt tends to improve movie ratings, which in turn, improves profits.
-2) Produce an adventure movie; not only is it the most profitable genre, but it also doesn't have a saturated presence in the market and tends to get average reviews.
-3) Focus on Thai and Japanese Localizations; movies in this language tend to make money internationally, which would tell us to focus on the Asian market.
+1) **Hire experienced directors**; having more than one movie under their belt tends to improve movie ratings, which in turn, improves profits.
+2) **Produce an adventure movie**; not only is it the most profitable genre, but it also doesn't have a saturated presence in the market and tends to get average reviews.
+3) **Focus on Thai and Japanese Localizations**; movies in this language tend to make money internationally, which would tell us to focus on the Asian market.
 
 Furthermore, we produced some minor recommendations such as avoiding Documentaries, which tend to be highly rated and very produced but also tend to not make much of a profit in the box office.
