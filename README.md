@@ -75,6 +75,13 @@ This leaves us with the Null Hypothesis:
 
 We used a Mann-Whitney U test to analyze the aforementioned director data to arrive to the conclusion that **the movie average fresh percentage is significantly greater for movies that were directed by a director with experience of 2 or more movies**
 
+Some greater insights we could gain from the linear regression are that:
+
+> **As a director gains one movie in experience, the fresh percentage is expected to increae by 5%**
+> **For every fresh percentage point gained, we can expect to see box office revenue increased by $16.7K USD**
+
+This would further indicate that director experience is a desirable characteristic to have when producing a movie, since every percentual increase in the movie's rating will be reflected in the box office's revenue, and see generated earnings for the company.
+
 ## Conclusions
 
 This study was conducted within a week and, while most of our conclusions derive from our own analytical interpretations of the graphic representations produced, there was a statistic inference procedure conducted on the data related to directors in order to formally reject or accept our hypothesis as well as allow us to draw various conclusions that would derive into our recommendations. The three main points we would recommend Computing Vision are the following:
