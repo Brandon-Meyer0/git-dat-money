@@ -78,6 +78,7 @@ We used a Mann-Whitney U test to analyze the aforementioned director data to arr
 Some greater insights we could gain from the linear regression are that:
 
 > **As a director gains one movie in experience, the fresh percentage is expected to increae by 5%**
+> 
 > **For every fresh percentage point gained, we can expect to see box office revenue increased by $16.7K USD**
 
 This would further indicate that director experience is a desirable characteristic to have when producing a movie, since every percentual increase in the movie's rating will be reflected in the box office's revenue, and see generated earnings for the company.
